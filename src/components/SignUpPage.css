@@ -1,0 +1,136 @@
+.signup-page {
+  height: auto;
+  width: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftside {
+  background-color: black;
+  flex: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://i.ibb.co/b7jGD5b/image-13-1.png");
+    height: auto;
+}
+
+.rightside {
+  background-color: black;
+  flex: 1;
+  align-items: center;
+  height: auto;
+}
+.container1-leftside .text-white {
+  font-weight: 200;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-right: 2em;
+}
+
+.text-white {
+  color: white;
+}
+
+.container1-leftside {
+  margin-top: 3em;
+  margin-left: 3em;
+  align-items: center;
+}
+
+.rightside-container {
+  text-align: center;
+  padding: 0.5em 10%;
+}
+.align-left {
+  text-align: left;
+}
+.email-google {
+  width: 100%;
+  justify-content: center;
+}
+.email-google a {
+  text-decoration: none;
+  color: white;
+}
+.input-container InputField {
+  margin-top: 22px;
+}
+.input-container {
+  padding-right: 50px;
+}
+.email-google {
+  margin-bottom: 2em;
+}
+.checkbox {
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+  width: 1px;
+}
+
+.checkbox-conatiner {
+  width: 100%;
+  margin-bottom: 0.2em;
+  margin-top: 1em;
+}
+.checkbox-conatiner input {
+  width: 1.5em;
+  height: 2em;
+  background-color: #d9d9d9;
+}
+.checkbox-conatiner label {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  line-height: auto;
+  align-items: center;
+  margin-left: 2px;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #7c7c7c;
+}
+
+.text-grey {
+  color: #7c7c7c;
+  font-size: 1em;
+}
+.text-green {
+  color: #72db73;
+}
+.text-grey a {
+  text-decoration: none;
+}
+.W500 {
+  font-weight: 500;
+}
+.super-app {
+  color: #72db73;
+  font-size: 3em;
+  padding: 0 0;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+
+.conatiner2-leftside-text {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+.conatiner2-leftside {
+  margin-left: 40px;
+  position: absolute;
+  width: 40%;
+  bottom: 5em;
+  padding: 0;
+  text-align: left;
+}
